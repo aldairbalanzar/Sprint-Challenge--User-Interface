@@ -154,11 +154,11 @@ p {
 }
 
 button {
-    margin:2% 0 2%;
-    background-color: white;
-    border: solid 2px dimgrey;
-    border-radius: 5px;
-    padding: 1% 2%;
+  margin: 2% 0 2%;
+  background-color: white;
+  border: solid 2px dimgrey;
+  border-radius: 5px;
+  padding: 1% 2%;
 }
 
 .container {
@@ -206,8 +206,7 @@ button {
 .section3,
 .section4 {
   display: flex;
-  margin-bottom: 20px;
-  margin: 2%;
+  margin: 2% 0 0;
 }
 
 .section1 h2,
@@ -218,6 +217,9 @@ p {
 hr {
   width: 100%;
   border-top: dashed 1px;
+}
+
+.long-hr {
   margin: 3% 0;
 }
 
@@ -227,16 +229,28 @@ hr {
   margin-left: 2%;
 }
 
-.section2 .strategy,
-.how-we-work {
-  margin: 0 0 3%;
-}
-
 .section2 .strategy img,
 .section2 .how-we-work img,
 .section3 .places-we-work img,
 .section3 .collaboration img {
   margin: 0 0 3%;
+}
+
+.hr-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr-container hr {
+  width: 48%;
+}
+
+.places-we-work {
+  width: 100%;
+}
+
+.section4 {
+    margin: 4%;
 }
 
 footer {
