@@ -153,6 +153,14 @@ p {
   line-height: 1.4;
 }
 
+button {
+    margin:2% 0 2%;
+    background-color: white;
+    border: solid 2px dimgrey;
+    border-radius: 5px;
+    padding: 1% 2%;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -182,100 +190,53 @@ p {
   color: black;
 }
 
-.top-content {
+.section1,
+.section2,
+.section3,
+.section4 {
   display: flex;
+}
+
+.section1 {
   flex-wrap: wrap;
-  justify-content: space-evenly;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  display: flex;
   margin-bottom: 20px;
-  border-bottom: 1px dashed black;
   margin: 2%;
 }
 
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
+.section1 h2,
+p {
+  width: 100%;
 }
 
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
+hr {
+  width: 100%;
+  border-top: dashed 1px;
+  margin: 3% 0;
 }
 
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
+.section2,
+.section3,
+.section4 {
+  margin-left: 2%;
 }
 
-.middle-content .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.section2 .strategy,
+.how-we-work {
+  margin: 0 0 3%;
 }
 
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.middle-content .boxes #box1 {
-  background-color: teal;
-}
-
-.middle-content .boxes #box2 {
-  background-color: gold;
-}
-
-.middle-content .boxes #box3 {
-  background-color: cadetblue;
-}
-
-.middle-content .boxes #box4 {
-  background-color: coral;
-}
-
-.middle-content .boxes #box5 {
-  background-color: crimson;
-}
-
-.middle-content .boxes #box6 {
-  background-color: forestgreen;
-}
-
-.middle-content .boxes #box7 {
-  background-color: darkorchid;
-}
-
-.middle-content .boxes #box8 {
-  background-color: hotpink;
-}
-
-.middle-content .boxes #box9 {
-  background-color: indigo;
-}
-
-.middle-content .boxes #box10 {
-  background-color: dodgerblue;
-}
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
-}
-
-.bottom-content .text-container {
-  padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
+.section2 .strategy img,
+.section2 .how-we-work img,
+.section3 .places-we-work img,
+.section3 .collaboration img {
+  margin: 0 0 3%;
 }
 
 footer {
